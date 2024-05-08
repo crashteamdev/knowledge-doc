@@ -1,70 +1,140 @@
-## Начало работы с MarketDB
+# Начало работы с MarketDB
 
-**_MarketDB_** - сервисы аналитики на основе расширения для браузера.
+**_MarketDB_** - сервис аналитики маркетплейсов Магнит Маркет и Uzum.
 
-### Шаг 1: Регистрация
+## Шаг 1: Регистрация
 
-Перед началом использования сервиса необходимо [создать аккаунт](https://space.marketdb.pro/auth/register){target="_blank"} и/или войти в [Личный кабинет.](https://space.marketdb.pro/auth/login){target="_blank"}
+Перед началом использования сервиса необходимо [создать аккаунт](https://space.marketdb.pro/auth/register) и/или войти в [Личный кабинет.](https://space.marketdb.pro/auth/login)
 
-[//]: # (![register.png]&#40;/getting-started/register.png =399x511&#41;{.align-center})
+<p align="center">
+  <img src=_images/register.png width=350x alt=register.png>
+</p>
 
-### Шаг 2: Установка расширения
+## Шаг 2: Выбор и оплата тарифа
 
-Для работы аналитики необходимо установить расширение, которое поддерживается в: Google Chrome, Opera, Mozilla Firefox и Яндекс браузер.
+Для профессионального использования мы предлагаем ряд тарифов на 1 или 3 месяца. При покупке на 3 месяца действует скидка.
 
-> Для каждого маркетплейса, [KazanExpress](https://marketdb.ru){target="_blank"} или [Uzum](https://marketdb.org){target="_blank"} свое расширение.
-• [Расширение KazanExpress](https://chrome.google.com/webstore/detail/marketdb-%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D1%82%D0%B8%D0%BA%D0%B0-kazane/cfkfachbapidmnjkcandfhlbnfiialei?hl=ru){target="_blank"}
-• [Расширение Uzum](https://chrome.google.com/webstore/detail/marketdb-%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D1%82%D0%B8%D0%BA%D0%B0-uzumuz/blgbandfopjlfnfpgknfmdkboekolpcc?hl=ru){target="_blank"}
-{.is-info}
+Изучить и приобрести тарифы можно в [личном кабинете](https://space.marketdb.pro/pricing).
 
-После установки расширение в Вашем браузере в разделе управления расширениями появится иконка MarketDB.
+{% note alert %}
 
-[//]: # (![extension-menu.png]&#40;/extension-menu.png&#41;{.align-center})
+Для каждого маркетплейса тарифы покупаются отдельно. Нельзя купить тариф для KazanExpress и использовать для Uzum, в том числе наоборот.
 
-[//]: # (![extension.png]&#40;/getting-started/extension.png =243x390&#41;{.align-center})
+{% endnote %}
 
-### Шаг 3: Выбор и оплата тарифа
+Маркетплейс необходимо выбрать в левом контекстном меню под окошком "Баланс". 
+Это необходимо, потому что оплата проходит **ТОЛЬКО по выбранному маркетплейсу**. 
+Оба маркетплейса оплатить сразу нельзя
 
-Для профессионального использования мы предлагаем ряд тарифов на 1 или 3 месяца. При покупке на 3 месяца действует скидка. Об этом подробнее в разделе [Тарифы MarketDB.](/additionally/tariffs){target="_blank"}
+<p align="center">
+  <img src=_images/tariffs.png alt=tariffs.png>
+</p>
 
-Приобрести тарифы можно в [личном кабинете](https://space.marketdb.pro/pricing){target="_blank"}.
+Для оплаты тарифа необходимо нажать кнопку "Выбрать". После появится меню с информацией об оплате, в котором вы увидете сумму, выбранный тариф, селектор с платежными системами и поле ввода промокода для скидки, если такой у вас есть.
+По умолчанию установлена рекомендованная нами платежная система, но ее можно изменить.
 
-> Для каждого маркетплейса тарифы покупаются отдельно. Нельзя купить тариф для KazanExpress и использовать для Uzum, в том числе наоборот.
-{.is-warning}
-
-Маркетплейс необходимо выбрать в левом контекстном меню под окошком "Баланс". Это необходимо, потому что оплата проходит ТОЛЬКО по выбранному маркетплейсу. Оба маркетплейса оплатить сразу нельзя
-
-[//]: # (![tariffs2.png]&#40;/getting-started/tariffs2.png&#41;{.align-center})
-
-Для оплаты тарифа необходимо нажать кнопку "Выбрать". После появится меню с информацией об оплате, в котором вы увидете сумму, выбранный тариф, селектор с платежными системой и поле ввода промокода для скидки, если такой у вас есть.
-По умолчанию установлена релевантная платежная система, но ее можно изменить.
-
-[//]: # (![pay.png]&#40;/getting-started/pay.png&#41;{.align-center})
+<p align="center">
+  <img src=_images/pay.png alt=pay.png>
+</p>
 
 При нажатии кнопки "Оплатить тариф" вы будете перемещены на сайт платежной системы.
 
-### Шаг 4: Генерация токена
+{% note warning %}
 
-После приобретения тарифа необходимо [сгенерировать токен](https://space.marketdb.pro/extension){target="_blank"} доступа в Личном кабинете во вкладке "Аналитика" -> "Расширение" и вставить его в окно расширения.
+Внимательно следуйте инструкциям при проведении оплат! 
+Если сказано, что оплату необходимо провести ОДНИМ платежом, то строго соблюдайте это.
+Если сказано, оплатить КОНКРЕТНУЮ сумму, то оплачивать нужно ЧЕТКО указанную - ни больше, ни меньше.
 
-[//]: # (![token.png]&#40;/getting-started/token.png&#41;{.align-center})
+{% endnote %}
 
-### Шаг 5: Настройка расширения
+## Шаг 3: Внутренняя аналитика в ЛК
+
+Для работы с внутренней аналитикой необходимо в Личном кабинете открыть раздел ["Аналитика"](https://space.marketdb.pro/analytics/categories).
+
+В данном разделе вы увидите список категорий выбранного маркетплейса в виде таблицы с аналитическими данными.
+Категорию можно развернуть нажатием на "+", чтобы увидеть подкатегории. 
+
+<p align="center">
+  <img src=_images/internal-analytics-category.png alt=internal-analytics-category.png>
+</p>
+
+Так же при нажатии на название категории вы перейдёте на страницу подробной аналитики по выбранной категории, где сможете посмотреть сводку или список продуктов.
+
+<p align="center">
+  <img src=_images/internal-analytics-summary.png alt=internal-analytics-summary.png>
+</p>
+
+<p align="center">
+  <img src=_images/internal-analytics-products.png alt=internal-analytics-products.png>
+</p>
+
+{% note warning %}
+
+Внутренняя аналитика доступна для маркетплейса в соответствие с тарифом. 
+
+{% endnote %}
+
+## Шаг 4: Внешняя аналитика на маркетплейса
+
+Для работы с внешней аналитикой необходимо установить расширение и настроить его.
+
+### Шаг 4.1: Установка расширения
+
+Расширение поддерживается в: Google Chrome, Opera, Mozilla Firefox и Яндекс браузер.
+
+{% note info %}
+
+Для каждого маркетплейса, [Магнит Маркет](https://marketdb.ru) или [Uzum](https://marketdb.org) свое расширение.
+* [Расширение Магнит Маркет](https://chrome.google.com/webstore/detail/marketdb-%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D1%82%D0%B8%D0%BA%D0%B0-kazane/cfkfachbapidmnjkcandfhlbnfiialei?hl=ru)
+* [Расширение Uzum](https://chrome.google.com/webstore/detail/marketdb-%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D1%82%D0%B8%D0%BA%D0%B0-uzumuz/blgbandfopjlfnfpgknfmdkboekolpcc?hl=ru)
+
+{% endnote %}
+
+После установки расширение в Вашем браузере в разделе управления расширениями появится иконка MarketDB.
+
+<p align="center">
+  <img src=_images/extension-menu.png alt=extension-menu.png>
+</p>
+
+<p align="center">
+  <img src=_images/extension.png width=240x alt=extension.png>
+</p>
+
+### Шаг 4.2: Генерация токена
+
+После приобретения тарифа необходимо [сгенерировать токен](https://space.marketdb.pro/extension) доступа в Личном кабинете во вкладке "Аналитика" -> "Расширение" и вставить его в окно расширения.
+
+<p align="center">
+  <img src=_images/token.png alt=token.png>
+</p>
+
+### Шаг 4.3: Настройка расширения
 
 Для настройки расширения первым делом необходимо вставить в расширении в поле "Токен" сгенерированный ранее токен. Чтобы скопировать токен из Личного кабинета, достаточно кликнуть по нему и он скопируется автоматически.
 
 В поле "Токен" вставьте скопированный токен и нажмите галочку, после чего в расширении откроются доступные для Вашего тарифа периоды.
 
-[//]: # (![extension-token.png]&#40;/getting-started/extension-token.png =243x390&#41;{.align-center})
+<p align="center">
+  <img src=_images/extension-token.png width=240x alt=extension-token.png>
+</p>
 
-### Шаг 6: Использование
+#### Шаг 4.4: Использование
 
 Последним шагом Вам осталось открыть интересующий Вас маркетплейс, где уже автоматически подключиться аналитика, благодаря который Вы повысите свои продажи!
 
-> На данный момент мы работает с двумя маркетплейсами:
-• [KazanExpress](https://kazanexpress.ru/){target="_blank"}
-• [Uzum](https://uzum.uz/ru){target="_blank"}
-{.is-info}
+{% note info %}
 
-[//]: # (![main-ext.png]&#40;/getting-started/main-ext.png&#41;{.align-center})
-[//]: # (![sell-ext.png]&#40;/getting-started/sell-ext.png&#41;{.align-center})
+На данный момент мы работает с двумя маркетплейсами:
+* [Магнит Маркет](https://mm.ru/)
+* [Uzum](https://uzum.uz/ru)
+
+{% endnote %}
+
+<p align="center">
+  <img src=_images/main-ext.png alt=main-ext.png>
+</p>
+
+<p align="center">
+  <img src=_images/sell-ext.png alt=sell-ext.png>
+</p>
+
