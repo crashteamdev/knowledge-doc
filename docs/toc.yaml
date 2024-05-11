@@ -8,7 +8,7 @@ navigation:
     leftItems:
       - text: Документация
         type: link
-        url: documentation/getting-started.html
+        url: documentation/index.html
         target: _self
       - type: link
         text: Личный кабинет
