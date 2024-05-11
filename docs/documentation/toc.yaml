@@ -7,7 +7,7 @@ navigation:
     leftItems:
       - text: Документация
         type: link
-        url: getting-started.html
+        url: index.html
         target: _self
       - type: link
         text: Личный кабинет
@@ -24,10 +24,10 @@ title: Документация
 href: index.yaml
 items:
   - name: Начало работы
-    href: getting-started.md
+    href: ./getting-started/getting-started.md
   - name: Возможности сервиса
     href: service-features.md
   - name: Сервис автоизменения цен
-    href: repricer.md
+    href: ./repricer/repricer.md
   - name: FAQ
     href: faq.md
