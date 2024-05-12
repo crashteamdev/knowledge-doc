@@ -7,7 +7,7 @@
 Перед началом использования сервиса необходимо [создать аккаунт](https://space.marketdb.pro/auth/register) и/или войти в [Личный кабинет.](https://space.marketdb.pro/auth/login)
 
 <p align="center">
-  <img src=_images/register.png width=350x alt=register.png>
+  <img src="_images/register.png" width="350x" alt="register.png">
 </p>
 
 ## Шаг 2: Выбор и оплата тарифа

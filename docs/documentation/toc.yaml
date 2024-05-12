@@ -24,10 +24,10 @@ title: Документация
 href: index.yaml
 items:
   - name: Начало работы
-    href: ./getting-started/getting-started.md
+    href: ./getting-started.md
   - name: Возможности сервиса
     href: service-features.md
   - name: Сервис автоизменения цен
-    href: ./repricer/repricer.md
+    href: ./repricer.md
   - name: FAQ
     href: faq.md
