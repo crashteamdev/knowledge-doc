@@ -17,7 +17,7 @@ meta:
 links:
   - title: Начало работы с MarketDB
     description: Узнайте, как настроить сервис, чтобы видеть аналитику
-    href: ./getting-started/getting-started.md
-  - title: Сервис автоизменение цен
+    href: ./getting-started.md
+  - title: Сервис автоизменения цен
     description: Настройка и возможности сервиса автоизменения цен
-    href: ./repricer/repricer.md
+    href: ./repricer.md
