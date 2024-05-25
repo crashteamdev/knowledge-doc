@@ -21,3 +21,6 @@ links:
   - title: Сервис автоизменения цен
     description: Настройка и возможности сервиса автоизменения цен
     href: ./repricer.md
+  - title: FAQ
+    description: Ответы на часто задаваемые вопросы
+    href: ./faq.md

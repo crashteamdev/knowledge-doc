@@ -21,14 +21,5 @@ navigation:
         text: Uzum
         url: https://marketdb.org
       - type: controls
-#title: Документация
-#items:
-#  - name: Начало работы
-#    href: documentation/getting-started.md
-#  - name: Возможности сервиса
-#    href: documentation/service-features.md
-#  - name: Сервис автоизменения цен
-#    href: documentation/repricer.md
-#  - name: FAQ
-#    href: documentation/faq.md
+
 
