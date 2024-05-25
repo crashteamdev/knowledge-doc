@@ -21,6 +21,9 @@ links:
   - title: Сервис автоизменения цен
     description: Настройка и возможности сервиса автоизменения цен
     href: ./repricer.md
+  - title: Возможности сервиса
+    description: В данном разделе вы узнаете о работе функционала MarketDB
+    href: ./service-features.md
   - title: FAQ
     description: Ответы на часто задаваемые вопросы
     href: ./faq.md
