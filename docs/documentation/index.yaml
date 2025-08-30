@@ -18,9 +18,9 @@ links:
   - title: Начало работы с MarketDB
     description: Узнайте, как настроить сервис, чтобы видеть аналитику
     href: ./getting-started.md
-  - title: Сервис автоизменения цен
-    description: Настройка и возможности сервиса автоизменения цен
-    href: ./repricer.md
+#  - title: Сервис автоизменения цен
+#    description: Настройка и возможности сервиса автоизменения цен
+#    href: ./repricer.md
   - title: Возможности сервиса
     description: В данном разделе вы узнаете о работе функционала MarketDB
     href: ./service-features.md

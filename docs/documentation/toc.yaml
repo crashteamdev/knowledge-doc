@@ -27,7 +27,7 @@ items:
     href: ./getting-started.md
   - name: Возможности сервиса
     href: service-features.md
-  - name: Сервис автоизменения цен
-    href: ./repricer.md
+#  - name: Сервис автоизменения цен
+#    href: ./repricer.md
   - name: FAQ
     href: faq.md
